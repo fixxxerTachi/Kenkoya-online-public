@@ -1,0 +1,107 @@
+body {
+	background-color: #fff;
+	font-family: 'MS P ゴシック','MS PGothic',Meiryo,Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #4F5155;
+}
+
+#header{
+	display: none;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	float: left;
+	margin-right: 40px;
+	line-height: 80px;
+}
+
+a.button{
+	text-decoration: none;
+	font-size: 1.0em;
+	padding: 5px 10px;
+	border: 1px solid #888;
+	color: #666;
+	border-radius: 3px;
+	background: #dfdfdf;
+	background: linear-gradient(#fff,#dfdfdf);
+	cursor: pointer;
+}
+
+div#container{
+	padding: 10px;
+}
+
+div.content{
+	margin: auto 0;
+}
+
+div#info{
+	min-width: 1024px;
+}
+
+table.order_info{
+	float: left;
+	min-width: 512px;
+}
+
+table.order_info tr{
+	text-align: left;
+}
+
+table.order_info tr td{
+	padding: 5px;
+}
+
+#price{
+	font-size: 1.5em;
+	color: #555;
+	font-weight: bold;
+}
+
+div.clearfix:after{
+  content: ".";   
+  display: block;   
+  height: 0;   
+  clear: both;   
+  visibility: hidden;  
+}
+
+p#content{
+	text-decoration: underline;
+}
+
+table#detail{
+	min-width: 1024px;
+	padding: 5px;
+	border:solid 1px #aaa;
+}
+
+table#detail caption{
+	font-weight: bold;
+	color: #999;
+}
+
+table#detail tr td{
+	padding: 5px;
+}
+
+div#myinfo{
+	width: 1024px;
+	text-align: right;
+	padding: 10px;
+}
+
+p{
+	margin: 0;
+	padding: 5px;
+}
+
+p#shopname{
+	font-size: 1.5em;
+	font-weight: bold;
+}

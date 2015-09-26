@@ -1,0 +1,151 @@
+
+#wrapper{
+	position: relative;
+	background: #fff;
+	background: linear-gradient(#E8F7A8,#FFF);
+}
+
+#container-inner{
+	background: #fff;
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+/**************　購入不可メッセージ *********************************/
+.notice_small{
+	font-size: 0.8em;
+	color: orange;
+}
+
+/*************** 下部にメニューをくっつけるため角丸を適用しない ************/
+#container-inner-square{
+	background: #fff;
+	border-radius: 15px 15px 0 0;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+	margin-top: 40px;
+	/*padding-bottom: 20px;*/
+	margin-bottom: 60px;
+}
+
+/****** order_flow ******************/
+#order-outer{
+	background: #fff;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+
+#order-inner{
+	margin: 0 auto;
+	background: #fff;
+	width: 1024px;
+}
+
+#order-inner ul{
+	margin-left: 10px;
+}
+
+#order-inner ul li{
+	float: left;
+	margin-left: 10px;
+	padding-right: 18px;
+	background: url(../images/icon/arrow_green.gif) no-repeat 100% 40%;
+}
+
+#order-inner ul li.current{
+	color: #A0C01D;
+}
+
+#order-inner ul li.last{
+	background: none;
+}
+
+.content{
+	position: relative;
+}
+
+.content h3{
+	background: #FAEAF0;
+	font-size: 1.1em;
+	padding: 10px 0px 10px 20px;
+	margin: 0;
+	border-left: solid 5px #FFB9E4;
+}
+
+table.contact_form {
+	text-align: left;
+	margin: 10px 20px 20px 20px;
+}
+
+table.contact_form td{
+	padding: 10px;
+}
+table.contact_form tr th{
+	background: linear-gradient(#fff,#E8F7A8);
+	padding: 5px 5px 5px 10px;
+	width: 250px;
+}
+
+table.contact_form tr.takuhai_menu th ,table.contact_form th#select_takuhai{
+	/*background: linear-gradient(#fff,#FFD3ED);*/
+	background: linear-gradient(#fff,#E8F7A8);
+	padding: 5px 5px 5px 10px;
+}
+
+table.contact_form tr.payment_inner td{
+	padding: 0 0 10px 30px;
+	border-bottom: 1px solid #ddd;
+}
+
+table.contact_form input, textarea, select{
+	font-size: 1.1em;
+	padding: 7px;
+}
+
+table.contact_form  th.result{
+	background: linear-gradient(#fff,#FFB9E4);
+}
+
+table.contact_form th.no-back{
+	background: none;
+}
+
+table#cart_menu{
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	width: 1024px;
+	background: #FAEAF0;
+	position: absolute;
+	bottom: -60px;
+	border-radius: 0 0 15px 15px;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+}
+
+table#cart_menu{
+	padding-left: 40px;
+}
+
+table#cart_menu label{
+	padding: 0 10px;
+}
+
+#cover{
+	position: absolute;
+	display: none;
+}
+
+/**** 決済方法　*******************/
+table.payment_cache{
+
+}
+
+table.payment_cache tr th{
+	text-align: center;
+	background: #FFB9E4;
+}
+
+ul.payment_nissen{
+	list-style-type: disc;
+}
+

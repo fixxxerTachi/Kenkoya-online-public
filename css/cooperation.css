@@ -1,0 +1,97 @@
+#mainvisual{
+	margin: 0 auto;
+	width: 1024px;
+	height: 200px;
+}
+
+
+.logo_q{
+	font-weight: bold;
+	color: #fff;
+	background: #A0C01D;
+	border-radius: 5px;
+	padding: 0 5px 0 5px;
+	font-size: 1.2em;
+}
+
+.logo_a{
+	font-weight: bold;
+	color: #fff;
+	background: #FF6EDC;
+	border-radius: 5px;
+	padding: 0 5px 0 5px;
+	font-size: 1.2em;
+}
+
+p.qa_logo{
+	margin: 0px;
+	position: absolute;
+	width: 80px;
+	top: 5px;
+	right: 5px;
+	color: #fff;
+	background: #A0C01D;
+	border-radius: 5px;
+	text-align: center;
+}
+#side{
+	margin-top: 10px;
+}
+
+#side ul li{
+	margin-bottom: 10px;
+	padding: 10px 0 10px 10px;
+	border-bottom: 1px  solid #ddd;
+}
+
+#side ul li a{
+	text-decoration: none;
+	display: block;
+	color: #666;
+}
+
+table.list_inner{
+	text-align: left;
+	/*border-collapse: collapse;*/
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 1.2em;
+}
+
+
+table.list_inner th{
+	height: 40px;
+	width: 80px;
+	margin-bottom: 10px;
+	color: #555;
+	background: #E0ECF8;
+	text-align: center;
+}
+
+table.list_inner td{
+	height: 50px;
+	padding-left: 10px;
+}
+
+table.list_inner td.branch{
+	border-bottom:1px dotted #ccc;
+	padding-right: 40px;
+}
+
+table.extend th{
+	width: 220px;
+	height: 80px;
+}
+
+table.extend td{
+	border-bottom: 1px dotted #ccc;
+}
+
+h2{
+	font-size: 1.2em;
+	width: 900px;
+	margin-top: 20px;
+	border-left: 15px solid #A0C01D;
+	border-bottom: 2px solid #A0C01D;
+	padding-left: 5px;
+}

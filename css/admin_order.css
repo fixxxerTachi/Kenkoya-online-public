@@ -1,0 +1,36 @@
+	tr.base_info_header{
+		background :#DBE2E1;
+		font-size: 0.9em;
+	}
+	tr.base_info{
+		background: #EDF1F3;
+		font-size: 0.9em;
+	}
+	tr.product_info_header{
+		background: #D2F1ED;
+		font-size: 0.9em;
+	}
+	tr.product_info{
+		background: #DFFAFC;
+		font-size: 0.9em;
+	}
+	tr.status{
+		font-size: 0.9em;
+	}
+	#side{
+		width: 10%;
+	}
+	#body{
+		width: 87%;
+	}
+	#side ul li{
+		width: 150px;
+	}
+	#side ul li a{
+		font-size: 0.8em;
+	}
+	.desc_btn{
+		display: block;
+		font-size: 0.8em;
+		width: 50px;
+	}

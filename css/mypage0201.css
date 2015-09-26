@@ -1,0 +1,244 @@
+.information{
+	width:720px;
+	margin: 20px 0px 0px 20px;
+	/*background: url(../images/icon/underline.gif) repeat-x bottom left;*/
+}
+
+body{
+	background: linear-gradient(#E8F7A8,#FFF);
+}
+
+#container{
+	/*background: #fff;
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-bottom :10px;*/
+}
+
+.content p{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+#body{
+	position: relative;
+	background: #fff;
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+	margin-top: 40px;
+	margin-bottom: 40px;
+	min-height: 500px;
+	height:auto !important;
+	height:500px;
+	/*padding-bottom :10px;*/
+}
+
+
+.body{
+	background: #fff;
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+	margin-top: 40px;
+	margin-bottom: 40px;
+	/*padding-bottom :10px;*/
+}
+
+table.contact_form {
+	text-align: left;
+	margin: 10px 20px 20px 20px;
+}
+
+table.contact_form td{
+	padding: 10px;
+}
+table.contact_form tr th{
+	background: linear-gradient(#fff,#E8F7A8);
+	padding: 5px 5px 5px 10px;
+}
+
+table.contact_form input, textarea, select{
+	font-size: 1.1em;
+	padding: 7px;
+}
+table.contact_form th.no-back{
+	background: #fff;
+}
+
+.content h2{
+	background: linear-gradient(#fff,#E8F7A8);
+	border-radius: 15px 15px 0 0;
+	font-size: 1.5em;
+	padding: 10px 0px 10px 20px;
+	margin: 0;
+}
+
+a.form_back{
+	text-decoration: none;
+	font-size: 1.2em;
+	padding: 2px 10px;
+	border: 1px solid #888;
+	color: #888;
+	border-radius: 3px;
+	background: linear-gradient(#fff,#dfdfdf);
+	margin-left: 40px;
+}
+a.edit{
+	text-decoration: none;
+	font-size: 1.0em;
+	padding: 2px 10px;
+	border: 1px solid #888;
+	color: #888;
+	border-radius: 3px;
+	background: linear-gradient(#fff,#dfdfdf);
+
+}
+
+.message_area{
+	padding: 20px 0 0 20px;
+}
+p.error{
+	color: #E93D14;
+}
+.content p.note{
+	background: #FAEAF0;
+	margin: 0;
+	padding: 20px;
+}
+
+.content-inner{
+	padding: 20px;
+}
+
+
+h3{
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+#mypage_information{
+	padding: 10px;
+	min-height: 100px;
+}
+
+#mypage_information ul{
+	margin: 20px;
+}
+
+#mypage_information li{
+	margin-bottom: 10px;
+}
+
+#mypage_information a{
+	text-decoration: underline;
+	color: #666;
+}
+
+#mypage_point p{
+	vertical-align: middle;
+	text-align: center;
+}
+
+#mypage_point p span{
+	color: orange;
+	font-size: 40px;
+}
+
+
+.mypage{
+	width: 330px;
+	float:left;
+	padding-left: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	min-height: 300px;
+}
+
+.mypage a{
+	text-decoration: none;
+	color: #666;
+}
+
+.mypage ul{
+	margin-left: 20px;
+}
+
+.mypage ul li{
+	margin-bottom: 10px;
+	padding-left: 20px;
+	background: url(../images/icon/arrow_green.gif) no-repeat center left;
+}
+
+.left{
+	border-right: 1px solid #ccc;
+}
+
+.right{
+	border-left: 1px solid #ccc;
+}
+
+.info{
+	width: 600px;
+	float: left;
+}
+.point{
+	width: 300px;
+	float: right;
+	height: 150px;
+}
+
+table#menu{
+	height: 50px;
+	width: 1024px;
+	background: #FAEAF0;
+	position: absolute;
+	bottom: 0px;
+	border-radius: 0 0 15px 15px;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+	padding-left: 40px;
+	height: 50px;
+}
+
+a.edit_menu{
+	text-decoration: none;
+	font-size: 1.0em;
+	padding: 2px 10px;
+	border: 1px solid #888;
+	color: #888;
+	border-radius: 3px;
+	background: linear-gradient(#fff,#dfdfdf);
+}
+
+table#menu ul li{
+	width: 482px;
+	float: left;
+}
+
+#menu input#submit{
+	padding: 5px 15px;
+	color: #888;
+	font-size: 1.2em;
+}
+
+table.list{
+	padding: 10px;
+	border-collapse: collapse;
+	margin-left: 20px;
+}
+
+table.list th,table.list td{
+	border-bottom: 1px solid #aaa;
+	padding: 10px;
+}
+
+table.list th{
+	text-align: right;
+	padding-right: 10px;
+	font-weight: normal;
+	color: #555;
+}
+table.list td.product{
+	padding-left: 10px;
+	width: 250px;
+}

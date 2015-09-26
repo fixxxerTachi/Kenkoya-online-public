@@ -1,0 +1,143 @@
+#wrapper{
+	background: #fff;
+	background: linear-gradient(#E8F7A8,#FFF);
+}
+
+#container-inner{
+	float: right;
+	width: 724px;
+	background: #fff;
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+
+.content h3{
+	background: #FAEAF0;
+	font-size: 1.1em;
+	padding: 10px 0px 10px 10px;
+	margin: 0;
+	/*border-left: solid 5px #FFB9E4*/;
+}
+
+.content a{
+	color: #555;
+}
+
+.content a:hover{
+	color: #aaa;
+}
+
+ul.inner-information{
+	font-size: 1.1em;
+	/*margin-bottom: 40px;*/
+	/*position: relative;*/
+}
+
+ul.inner-information li{
+	padding: 10px 20px;
+}
+/*
+ul.inner-information li:nth-child(2n-1){
+	background: #FDF5E6;
+	margin-bottom: 10px;
+	padding: 2px;
+}
+*/
+.answer{
+	padding: 20px;
+}
+
+table.answer{
+	padding: 10px;
+}
+
+table.answer th{
+	background: #ddd;
+}
+
+table.answer td{
+	padding: 0px 10px 0px 10px;
+}
+
+ul.payment_answer{
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+span.notice{
+	color: red;
+}
+
+/******************* logo ****************************************/
+.logo_q{
+	font-weight: bold;
+	color: #fff;
+	background: #A0C01D;
+	border-radius: 5px;
+	padding: 0 5px 0 5px;
+	font-size: 1.2em;
+}
+
+.logo_a{
+	font-weight: bold;
+	color: #fff;
+	background: #FF6EDC;
+	border-radius: 5px;
+	padding: 0 5px 0 5px;
+	font-size: 1.2em;
+}
+
+p.qa_logo{
+	margin: 0px;
+	position: absolute;
+	width: 80px;
+	top: 5px;
+	right: 5px;
+	color: #fff;
+	background: #A0C01D;
+	border-radius: 5px;
+	text-align: center;
+}
+
+span.logo_header{
+	color: #fff;
+	background: #A0C01D;
+	border-radius: 5px;
+	padding: 5px 8px 5px 8px;
+	font-size: 0.9em;
+	margin-right: 20px;
+}
+
+
+/************** side ******************************/
+
+.side_inner{
+	margin-top: 40px;
+	padding: 0px;
+	background: #fff;
+	border-radius: 10px;
+}
+
+
+.side_title_no_main{
+	background: linear-gradient(#fff,#E8F7A8);
+	border-radius: 15px 15px 0 0;
+	font-size: 1.1em;
+	padding: 5px 0px 5px 10px;
+	margin: 0;
+}
+
+table.list_inner{
+	margin: 5px;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+
+table.list_inner th{
+	width: 50px;
+	height: 30px;
+}
+

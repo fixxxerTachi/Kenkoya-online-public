@@ -1,0 +1,604 @@
+/*********************** 初期化　********************************/
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+
+img{
+	border: none;
+}
+
+a {
+	outline: none;
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+body {
+	background-color: #fff;
+	font-family: Meiryo,'MS P ゴシック','MS PGothic',Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	color: #4F5155;
+}
+
+#wrapper{
+	position: relative;
+	width: 100%;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+}
+
+/********************** header ***********************************/
+#header-wrapper{
+	border-top: 15px solid #A0C01D;
+	background: linear-gradient(#E8F7A8,#FFF);
+	width: 100%;
+	min-width: 1024px;
+}
+#header-inner-wrapper{
+	width: 100%;
+	background: #fff;
+	border-bottom: solid 5px #A0C01D;
+}
+#header{
+	margin: 0 auto;
+	width: 1024px;
+	background: #fff;
+	/*padding-top: 20px;*/
+	position: relative;
+}
+
+h1 {
+	width: 300px;
+	height: 20px;
+	float: right;
+	color: #777;
+	background-color: transparent;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: right;
+	margin-top:5px;
+}
+
+#header #logo{
+	width:724px;
+	height:107px;
+	float: left;
+	/*padding-top: 13px;*/
+}
+#header #header-menu{
+	width: 524px;
+	position: absolute;
+	top: 75px;
+	left: 380px;
+}
+
+#header #header-menu li{
+	float:left;
+}
+
+#header #header-menu li a{
+	color: #666;
+	display: block;
+	padding-left: 17px;
+	margin-left: 10px;
+	background: url(../images/play.png) no-repeat left center;
+}
+#header #header-menu li a:hover{
+	color: #f8d3e6;
+	background: url(../images/play_hover.png) no-repeat left center;
+}
+
+#header #tel{
+	text-align: right;
+}
+
+#mainvisual{
+	margin: 0 auto;
+	width: 1024px;
+	height: 300px;
+	position: relative;
+}
+
+/**************************** navigator *******************************/
+#nav-outer{
+	background: #fff;
+	border-bottom:  1px solid #ddd;
+	/*box-shadow: 0px 1px rgba(0,0,0,0.3);*/
+}
+
+#nav{
+	margin: 0 auto;
+	width: 1024px;
+}
+
+#nav-inner{
+	position: relative;
+}
+
+#nav-inner ul{
+}
+
+#nav-inner ul li{
+	float: left;
+	height: 41px;
+
+}
+
+#cart_count{
+	font-size: 14px;
+	text-align: center;
+	position: absolute;
+	right: 75px;
+	top: 3px;
+	color: #fff;
+	background: #058c49;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+#customer_name{
+	font-size: 0.7em;
+	color: orange;
+	width: 200px;
+	text-align: center;
+	padding-right: 5px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#customer_name span{
+	color: #A0C01D;
+	font-size:1.2em;
+}
+
+.logout{
+	width: 106px;
+	/*border-left: dotted 2px #888;*/
+	/*padding-left: 5px;*?
+	/*color: #888;*/
+	margin-top: 15px;
+	/*padding-top: 4px;*/
+}
+
+.logout a{
+	display: block;
+	text-decoration: none;
+	color: #666;
+	padding-left: 18px;
+	background: url(../images/icon/clover003_s.gif) no-repeat;
+	line-height: 95%;
+}
+
+.logout a:hover{
+	color: #FFB9E4;
+	background: url(../images/icon/clover002_s.gif) no-repeat;
+}
+
+/******************************* パンくずリスト/order_flow ********************************/
+#bread-outer{
+	background: #fff;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+
+#bread-inner{
+	margin: 0 auto;
+	background: #fff;
+	width: 1024px;
+}
+
+#bread-inner ul{
+	margin-left: 10px;
+}
+
+#bread-inner ul li{
+	float: left;
+	margin-left: 10px;
+	padding-right: 18px;
+	background: url(../images/icon/arrow_green.gif) no-repeat 100% 40%;
+}
+
+#bread-inner ul li:last-child{
+	background: none;
+}
+
+#bread-inner ul li a{
+	color: #999;
+}
+
+/**************************** container ********************************/
+#container{
+	width: 1024px;
+	margin: 0 auto;
+	padding-bottom: 350px;
+}
+
+#main{
+	width: 744px;
+	float: right;
+}
+
+h2{
+	margin-bottom: 20px;
+	font-weight: 500;
+	font-size: 1.2em;
+	color: #444;
+}
+
+h3{
+	font-weight: 500;
+	color: #444;
+}
+
+/*** 商品ページ以外以外 ***/
+.content h2{
+	background: #E8F7A8;
+	background: linear-gradient(#fff,#E8F7A8);
+	border-radius: 15px 15px 0 0;
+	font-size: 1.5em;
+	padding: 10px 0px 10px 20px;
+	margin: 0;
+}
+
+.content p{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.content p.note{
+	background: #FAEAF0 url(../images/icon/clover003_s.gif) no-repeat 1% 50%;
+	margin: 0;
+	padding: 20px 20px 20px 30px;
+}
+
+div.note{
+	background: #FAEAF0;
+	margin: 0;
+	padding: 20px 20px 20px 20px;
+}
+
+.content div.note ul li{
+	font-size: 1.1em;
+	margin-bottom: 10px;
+}
+
+.content-inner h3{
+	margin-bottom: 20px;
+}
+
+
+/*
+.contents{
+	width:704px;
+	margin: 20px;
+	padding-bottom: 20px;
+	background: url(../images/icon/underline.gif) repeat-x bottom left;
+}
+*/
+
+/************************* footer ***************************************/
+#footer-wrapper{
+	border-top: 1px solid #ddd;
+	background: #A0C01D;
+	color: #fff;
+	width: 100%;
+	min-width: 1024px;
+	position: absolute;
+	bottom: 0;
+}
+
+#footer_menu_wrapper{
+	margin: 0 auto;
+	width: 1024px;
+}
+
+#footer_menu_wrapper a{
+	color: #fff;
+}
+
+#footer_menu_wrapper a:hover{
+	text-decoration: underline;
+}
+
+
+#footer-menu1{
+	width:472px;
+	float: left;
+	padding: 20px;
+}
+
+#footer-menu2{
+	width: 472px;
+	float: right;
+	padding: 20px;
+}
+#footer-menu1 ul li, #footer-menu2 ul li{
+	padding-left: 15px;
+	background: url('../images/icon/arrow.gif') no-repeat 0% 50%;
+}
+#copyright{
+	clear:both;
+}
+
+/************************ side *****************************************/
+#side{
+	width: 280px;
+	float:left;
+}
+
+.side_inner{
+	padding: 0px;
+	background: #fff;
+	border-radius: 15px;
+	box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom :10px;
+}
+.side_inner a{
+	color: #666;
+}
+.side_inner a:hover{
+	/*text-decoration: underline;*/
+	color: #aaa;
+}
+
+.side_title{
+	background: #E8F7A8;
+	background: linear-gradient(#fff,#E8F7A8);
+	border-radius: 15px 15px 0 0;
+	font-size: 1.1em;
+	padding: 5px 0px 5px 10px;
+	margin: 0;
+}
+
+.side_inner p{
+	padding: 10px;
+}
+.side_inner input{
+	margin-left: 10px;
+}
+
+.category_link{
+	padding-left: 20px;
+	background: url('../images/icon/arrow_green.gif') no-repeat 0% 0%;
+}
+
+.input_search{
+	padding: 5px;
+}
+
+.side_notice{
+	padding-left: 20px;
+	background: url('../images/icon/arrow_green.gif') no-repeat 0% 50%;
+}
+
+#side_banner{
+	border:none;
+}
+
+ul.list_inner{
+	background: #fff;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+ul.list_inner li{
+	padding-bottom: 5px;
+}
+
+ul.list_inner li img{
+	vertical-align: middle;
+}
+
+/******************** 個別 ******************************************/
+/*********** validaton message ****************/
+
+.message_area{
+	padding: 20px 0 0 20px;
+}
+
+p.success{
+	width:900px;
+	color: orange;
+	border: solid 1px orange;
+	text-align: center;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	padding: 15px 0;
+}
+
+p.error{
+	width:900px;
+	color: orange;
+	border: solid 1px orange;
+	text-align: center;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	padding: 15px 0;
+}
+
+.clearfix:after{
+  content: ".";   
+  display: block;   
+  height: 0;   
+  clear: both;   
+  visibility: hidden;  
+}
+
+/*********logo*****************/
+.logo{
+	color: #fff;
+	background: #A0C01D;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 0.7em;
+}
+
+.logo_pink{
+	font-weight: normal;
+	font-size: 0.9em;
+	color: #fff;
+	background: #FF6EDC;
+	border-radius: 5px;
+	padding: 0 5px 0 5px;
+	font-size: 0.7em;
+}
+
+.logo_green{
+	font-weight: normal;
+	font-size: 0.9em;
+	color: #fff;
+	background: #A0C01D;
+	border-radius: 5px;
+	padding: 0 5px 0 5px;
+}
+
+.logo_pink_middle{
+	font-weight: normal;
+	font-size: 0.9em;
+	color: #fff;
+	background: #FF6EDC;
+	border-radius: 5px;
+	padding: 0 5px 0 5px;
+}
+
+.logo_green_middle{
+	font-weight: normal;
+	font-size: 0.9em;
+	color: #fff;
+	background: #A0C01D;
+	border-radius: 5px;
+	padding: 0 5px 0 5px;
+}
+
+.logo_orange_middle{
+	font-weight: normal;
+	font-size: 0.9em;
+	color: #fff;
+	background: #FFA80D;
+	border-radius: 5px;
+	padding: 0 5px 0 5px;
+}
+
+.logo_pink_large{
+	font-weight: normal;
+	color: #fff;
+	background: #FF6EDC;
+	border-radius: 5px;
+	padding: 0 5px 0 5px;
+	font-size: 0.8em;
+}
+
+/************button**************/
+/*** form内の戻りリンク ***/
+/********* form内の戻るボタン grayぐらっでーション 幅指定なし　*************/
+a.form_back{
+	text-decoration: none;
+	font-size: 1.2em;
+	padding: 2px 10px;
+	border: 1px solid #888;
+	color: #888;
+	border-radius: 3px;
+	background: linear-gradient(#fff,#dfdfdf);
+	margin-left: 40px;
+}
+
+
+/************** 普通の小さいボタン　**********************************/
+a.edit{
+	text-decoration: none;
+	font-size: 1em;
+	padding: 2px 5px;
+	border: 1px solid #888;
+	color: #888;
+	border-radius: 3px;
+	background: #fff;
+	cursor: pointer;
+}
+
+/**************** 　戻るボタン  ************************************/
+a.edit_back{
+	text-decoration: none;
+	font-size: 1em;
+	padding: 2px 13px;
+	border: 1px solid #888;
+	color: #888;
+	border-radius: 3px;
+	background: #fff;
+	margin-left: 40px;
+}
+
+/********* grayグラデーション幅指定なし　inline *********************/
+a.button{
+	text-decoration: none;
+	font-size: 1.0em;
+	padding: 5px 10px;
+	border: 1px solid #888;
+	color: #666;
+	border-radius: 3px;
+	background: #dfdfdf;
+	background: linear-gradient(#fff,#dfdfdf);
+	cursor: pointer;
+}
+
+a.button:hover{
+	background: linear-gradient(#dfdfdf,#fff);
+}
+
+/********* submit デフォルトのデザインを解除 *************************/
+#submit_button{
+	border-style:none;
+	font-size: 1.1em;
+	padding: 10px 20px;
+	color: #555;
+	border: solid 1px #aaa;
+	border-radius: 3px;
+	background: linear-gradient(#fff,#dfdfdf);
+}
+
+/********** 規約表示ボタン:grayグラデーション **************************/
+/*
+.content a.kiyaku{
+	width: 240px;
+	text-decoration: none;
+	font-size: 1.0em;
+	padding: 2px 10px;
+	border: 1px solid #888;
+	color: #888;
+	border-radius: 3px;
+	background: linear-gradient(#fff,#dfdfdf);
+}
+*/
+
+.hide{
+	display: none;
+}
+
+/********** 別窓open　***********/
+a.new-window
+{
+	color: #666;
+	background: url(../images/icon/new-window.gif) no-repeat left top;
+	padding-left:17px;
+}
+
+a.new-window:hover
+{
+	color: #ccc;
+	background: url(../images/icon/new-window.gif) no-repeat left top;
+	padding-left:17px;
+}

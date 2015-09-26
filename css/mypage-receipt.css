@@ -1,0 +1,137 @@
+body {
+	background-color: #fff;
+	font-family: 'Meiryo,MS P ゴシック','MS PGothic',Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #4F5155;
+}
+
+#wrapper{
+	position: relative;
+	width: 100%;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+}
+
+#header{
+	border-bottom: 5px solid #A0C01D;
+	height: 90px;
+}
+
+h2{
+	background: #A0C01D;
+	font-size:1.5em;
+	font-weight: normal;
+	padding: 5px 5px 5px 15px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	float: left;
+	margin-right: 40px;
+	line-height: 80px;
+}
+
+a.button{
+	text-decoration: none;
+	font-size: 1.0em;
+	padding: 5px 10px;
+	border: 1px solid #888;
+	color: #666;
+	border-radius: 3px;
+	background: #dfdfdf;
+	background: linear-gradient(#fff,#dfdfdf);
+	cursor: pointer;
+}
+
+div#container{
+	padding: 10px;
+}
+
+div.content{
+	margin: auto 0;
+}
+
+div#info{
+	width: 100%;
+}
+
+table.order_info{
+	float: left;
+	width: 100%;
+}
+
+table.order_info tr{
+	text-align: left;
+}
+
+table.order_info tr td{
+	padding: 5px;
+}
+
+#price{
+	font-size: 1.5em;
+	color: #555;
+	font-weight: bold;
+}
+
+div.clearfix:after{
+  content: ".";   
+  display: block;   
+  height: 0;   
+  clear: both;   
+  visibility: hidden;  
+}
+
+p#content{
+	text-decoration: underline;
+}
+
+table#detail{
+	width: 100%;
+	padding: 5px;
+	margin: 5px;
+	border:solid 1px #aaa;
+	border-radius: 10px;
+}
+
+table#detail caption{
+	font-weight: bold;
+	color: #777;
+}
+
+table#detail tr td{
+	padding: 5px;
+}
+
+div#myinfo{
+	margin-top: 10px;
+	border: 5px 5px 0 0;
+	width: 100%;
+	text-align: right;
+	background: #A0C01D;
+	color: #fff;
+	border-radius: 5px 5px 0 0;
+	position: absolute;
+	bottom: 0;
+	padding: 20px 0 20px 0;
+}
+
+p{
+	margin: 0;
+	padding: 10px 20px 0 0;
+}
+
+p#shopname{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+p#url{
+	font-size: 1.4em;
+}

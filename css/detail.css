@@ -1,0 +1,99 @@
+.information{
+	width:720px;
+	margin: 20px 0px 0px 20px;
+	/*background: url(../images/icon/underline.gif) repeat-x bottom left;*/
+}
+
+
+ul.detail-information1{
+	float: left;
+	width: 350px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 20px;
+	position: relative;
+	height: 300px;
+}
+
+p.detail-information2{
+	width: 350px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: relative;
+	height: 70px;
+	text-align: left;
+}
+
+
+table.detail-information3{
+	width: 350px;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: relative;
+	height: 220px;
+	text-align: left;
+}
+
+table.detail-information3 th{
+	width:80px;
+}
+
+ul.cart{
+	width: 350px;
+	padding: 10px 0 10px 0;
+	position: relative;
+	text-align: left;
+	float:right;
+	background: #dfdfdf;
+}
+
+ul.cart li{
+	padding-left: 10px;
+	float: left;
+}
+/*
+ul.cart li.cart_button{
+	margin-left: 20px;
+	color: #fff;
+	background: #FF81ED;
+	border-radius: 5px;
+	padding: 5px 20px 5px 20px;
+	font-size: 1.0em;
+}
+ul.cart li.cart_button a{
+	color: #fff;
+}
+*/
+.cart_button{
+	margin-left: 20px;
+	padding: 5px 20px 5px 20px;
+}
+
+.advertise{
+	position: absolute;
+	top:3px;
+	left: 45px;
+	color: #fff;
+	border-radius: 5px;
+	padding: 2px;
+	font-size: 1em;
+}
+
+.number{
+	position: absolute;
+	top:3px;
+	left: 5px;
+	color: #fff;
+	background: #A0C01D;
+	border-radius: 5px;
+	padding: 2px;
+	font-size: 1em;
+}
+.logo{
+	color: #fff;
+	background: #A0C01D;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 0.8em;
+}

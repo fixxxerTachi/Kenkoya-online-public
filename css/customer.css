@@ -1,0 +1,187 @@
+#wrapper{
+	background: #fff;
+	background: linear-gradient(#E8F7A8,#FFF);
+}
+
+#container-inner{
+	position: relative;
+	background: #fff;
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+	margin-top: 40px;
+	padding-bottom: 20px;
+	min-height: 400px;
+}
+
+h3{
+	border-left: 10px solid #A0C01D;
+	padding: 2px 0px 2px 5px;
+	margin: 10px 0 10px 10px;
+}
+/****** order_flow ******************/
+#order-outer{
+	background: #fff;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+
+#order-inner{
+	margin: 0 auto;
+	background: #fff;
+	width: 1024px;
+}
+
+#order-inner ul{
+	margin-left: 10px;
+}
+
+#order-inner ul li{
+	float: left;
+	margin-left: 10px;
+	padding-right: 18px;
+	background: url(../images/icon/arrow_green.gif) no-repeat 100% 40%;
+}
+
+#order-inner ul li.current{
+	color: #A0C01D;
+}
+
+#order-inner ul li.last{
+	background: none;
+}
+
+/************************** クリティカルマップ ***********************************/
+area{
+	border: none;
+	outline: none;
+}
+
+/************************* form *******************************************/
+table.contact_form {
+	text-align: left;
+	margin: 10px 20px 20px 20px;
+}
+
+table.contact_form td{
+	padding: 10px;
+}
+table.contact_form tr th{
+	background: linear-gradient(#fff,#E8F7A8);
+	padding: 5px 5px 5px 10px;
+}
+
+
+table.contact_form input, textarea, select{
+	font-size: 1.1em;
+	padding: 7px;
+}
+
+table.contact_form  th.result{
+	background: linear-gradient(#fff,#FFB9E4);
+}
+
+
+/************************** 市区町村名 *********************************/
+p.links a{
+	text-decoration: none;
+	font-size: 1.1em;
+	padding: 2px 5px;
+	border: 1px solid #888;
+	color: #666;
+	border-radius: 3px;
+	background: #FAD8EB;
+	background: linear-gradient(#fff,#E8F7A8);
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+p.links a:hover{
+	background: linear-gradient(#E8F7A8,#fff);
+}
+
+/************************** 地名リンク　****************************************/
+#area_content_wrapper{
+	padding: 10px;
+}
+
+#area_content ul{
+	width:150px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	float:left;
+	padding: 5px 5px 2px 5px;
+	background: #FDF5E6;
+}
+
+#area_content ul.li.address{
+	font-size: 1.2em;
+	color: #444;
+}
+
+
+#area_content  a{
+	display:block;
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #444;
+}
+
+#area_content a:hover{
+	opacity: 0.6;
+}
+
+h3#city_name{
+	border-left: 10px solid #A0C01D;
+	border-bottom: 3px solid #A0C01D; 
+	padding: 2px 0px 2px 5px;
+	margin: 10px 0 10px 10px;
+}
+
+
+/****** login member_form ****/
+table.member_form {
+	text-align: left;
+	margin: 10px 20px 20px 120px;
+}
+
+table.member_form td{
+	padding: 10px;
+}
+
+table.member_form tr th{
+	background: linear-gradient(#fff,#E8F7A8);
+	padding: 5px 5px 5px 10px;
+}
+
+table.member_form input{
+	font-size: 1.1em;
+	padding: 7px;
+}
+table.member_form label{
+	padding-left: 5px;
+}
+
+
+/*********  キャプチャ *****************************/
+#captcha img{
+	width: 200px;
+	height: 50px;
+}
+
+
+/********** add_address inner_table *************/
+table.inner_table tr{
+	height: 30px;
+}
+table.inner_table tr td{
+	margin-right: 10px;
+}
+table.inner_table a.button{
+	font-size:0.9em;
+	padding: 4px;
+}
+table.inner_table td#table_address{
+	padding-left: 20px;
+	background: url(../images/icon/clover002_s.gif) no-repeat 0% 40%;
+}
+

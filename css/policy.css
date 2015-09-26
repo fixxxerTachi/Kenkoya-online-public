@@ -1,0 +1,91 @@
+#wrapper{
+	background: #fff;
+	background: linear-gradient(#E8F7A8,#FFF);
+}
+
+#container-inner{
+	position: relative;
+	background: #fff;
+	border-radius: 15px 15px 0px 0px;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+	margin-top: 40px;
+	padding-bottom: 20px;
+	min-height: 400px;
+	margin-bottom: 60px;
+}
+
+.content-inner{
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+table.contact_form {
+	text-align: left;
+	margin: 10px 20px 20px 20px;
+}
+
+table.contact_form td{
+	padding: 10px;
+}
+
+table.contact_form tr th{
+	background: linear-gradient(#fff,#E8F7A8);
+	padding: 5px 5px 5px 10px;
+}
+
+
+table.contact_form input, textarea, select{
+	font-size: 1.1em;
+	padding: 7px;
+}
+
+#show_policy{
+	font-size: 16px;
+}
+
+#show_policy h3{
+	margin-top: 20px;
+	margin-bottom: 5px;
+	border-left: 5px solid #A0C01D;
+	padding-left: 8px;
+}
+
+#show_policy ul{
+	list-style-type: disc;
+	padding-left: 40px;
+}
+.tel{
+	font-size: 1.3em;
+}
+
+/********************* form buttonエリア　*******************************/
+table#cart_menu{
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	width: 1024px;
+	background: #FAEAF0;
+	position: absolute;
+	bottom: -60px;
+	border-radius: 0 0 15px 15px;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+}
+
+table#cart_menu{
+	padding-left: 40px;
+}
+
+table#cart_menu label{
+	padding: 0 10px;
+}
+
+
+.content iframe{
+	width: 700px;
+	height: 500px;
+	margin-left: 150px;
+}
+
+.content div#policy{
+	font-size: 1.5em;
+}

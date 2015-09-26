@@ -1,0 +1,43 @@
+.information{
+	width:704px;
+	margin: 30px;
+	padding-bottom: 20px;
+	/*background: url(../images/icon/underline.gif) repeat-x bottom left;*/
+	border-bottom: 1px solid #ddd;
+}
+
+a.info_link{
+	color: #666;
+	display: block;
+	padding-left: 30px;
+	background: url(../images/icon/clover002.png) no-repeat;
+	padding-bottom: 5px;
+}
+
+a.info_link:hover{
+	color: #FFB9E4;
+}
+
+ul.inner-information{
+	float: left;
+	width: 135px;
+	height: 260px;
+	padding-bottom: 5px;
+	margin-left: 5px;
+}
+
+ul.inner-information li img:hover{
+	opacity: 0.6;
+}
+
+.rank{
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #bf0000;
+}
+
+.rank span{
+	font-size: 8px;
+}

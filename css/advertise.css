@@ -1,0 +1,94 @@
+#wrapper{
+	background: #fff;
+	background: linear-gradient(#E8F7A8,#FFF);
+}
+
+#container-inner{
+	float: right;
+	width: 724px;
+	background: #fff;
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.ad_list{
+	width: 684px;
+	padding: 20px;
+}
+.ad_list h3{
+	border-left: 5px solid #FFB9E4;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+
+.ad_list li{
+	margin-bottom: 10px;
+}
+
+.ad_list li a:hover{
+	opacity:0.6;
+}
+
+.ad_left{
+	width:342px;
+	height: 230px;
+	float: left;
+}
+.ad_right{
+	width: 342px;
+	height: 230px;
+	float: right;
+}
+
+/********************* side banner・#side_banner非表示 ******************/
+#side_banner{
+	display: none;
+}
+
+/*
+.content table{
+	padding: 5px 5px 5px 10px;
+}
+.content table td{
+	padding: 0 5px 5px 5px;
+}
+
+.content table td.long{
+	width: 200px;
+}
+
+table#cart_menu{
+	height: 50px;
+	width: 724px;
+	background: #FAEAF0;
+	position: absolute;
+	bottom: 30px;
+	border-radius: 0 0 15px 15px;
+}
+
+table#cart_menu{
+	padding-left: 40px;
+}
+
+a.cart_proceed{
+	text-decoration: none;
+	font-size: 1.0em;
+	padding: 2px 10px;
+	border: 1px solid #888;
+	color: #666;
+	border-radius: 3px;
+	background: linear-gradient(#fff,#FFB9E4);
+}
+
+a.cart_proceed:hover{
+	background: linear-gradient(#FFB9E4,#fff);
+}
+*/
+
+/*
+#nav-outer{
+	border-bottom: none;
+}
+*/

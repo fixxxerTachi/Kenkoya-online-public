@@ -1,0 +1,53 @@
+#wrapper{
+	background: #fff;
+	background: linear-gradient(#E8F7A8,#FFF);
+}
+
+#container-inner{
+	background: #fff;
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+
+.content-inner{
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+table.contact_form {
+	text-align: left;
+	margin: 10px 20px 20px 20px;
+}
+
+table.contact_form td{
+	padding: 10px;
+}
+
+table.contact_form tr th{
+	background: linear-gradient(#fff,#E8F7A8);
+	padding: 5px 5px 5px 10px;
+}
+
+
+table.contact_form input, textarea, select{
+	font-size: 1.1em;
+	padding: 7px;
+}
+
+#show_policy{
+	font-size: 16px;
+}
+
+#show_policy h3{
+	margin-top: 20px;
+}
+
+#show_policy ul{
+	list-style-type: disc;
+	padding-left: 40px;
+}
+.tel{
+	font-size: 1.3em;
+}

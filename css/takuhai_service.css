@@ -1,0 +1,139 @@
+#wrapper{
+	background: #fff;
+	/*background: linear-gradient(#E8F7A8,#FFF);*/
+}
+
+#takuhai_main{
+	height: 300px;
+}
+
+.content p.note{
+	background: rgba(255,255,255,0.7) url(../images/icon/clover003_s.gif) no-repeat 0% 30%;
+	margin: 0;
+	text-indent: 1em;
+	padding: 10px 0px 10px 10px;
+}
+
+.content p.note_one{
+	background: rgba(255,255,255,0.3) url(../images/icon/clover003_s.gif) no-repeat 0% 50%;
+	margin: 0;
+	text-indent: 1em;
+	padding: 10px 0px 10px 10px;
+}
+
+#container-inner{
+	position: relative;
+	background: #fff;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.4);
+	margin-top: 40px;
+	padding-bottom: 20px;
+	min-height: 400px;
+	margin-bottom: 40px;
+}
+
+.content-inner{
+	/*padding: 10px;*/
+	margin-bottom: 10px;
+}
+
+.content-inner p{
+	margin:0;
+	padding: 0;
+}
+
+.content ul{
+	margin-left: 30px;
+	list-style-type: disc;
+}
+
+.content h3{
+	background: #FAEAF0;
+	font-size: 1.1em;
+	padding: 10px 0px 10px 20px;
+	margin: 0;
+	border-left: solid 5px #FFB9E4;
+}
+
+.inner{
+	/*padding: 20px;*/
+	margin-bottom: 40px;
+	min-height: 300px;
+}
+
+.inner p, .inner-small p{
+	padding: 10px;
+}
+
+.inner-red{
+	padding: 10px;
+	color: red;
+}
+
+.inner-small{
+	/*padding: 20px;*/
+	margin-right: 30px;
+	width: 480px;
+	height: 400px;
+	float: left;
+}
+
+.inner-small a:hover{
+	opacity: 0.6;
+}
+
+.cart-back{
+	background: url(../images/takuhai_service/kaimono_kago_full.gif) no-repeat right bottom;
+}
+
+.member-back{
+	background: url(../images/takuhai_service/member.gif) no-repeat right bottom;
+}
+
+.takuhai-back{
+	background: url(../images/takuhai_service/guidance_takuhai.gif) no-repeat right bottom;
+}
+
+.payment-back{
+	background: url(../images/takuhai_service/payment.gif) no-repeat right bottom;
+}
+
+.mail-back{
+	background: url(../images/takuhai_service/mail.gif) no-repeat right bottom;
+}
+
+.content{
+	/*margin-bottom: 40px;*/
+}
+
+
+#ice_notice{
+	text-align: center;
+	background: #c4e5f4;
+}
+
+table.contact_form {
+	text-align: left;
+	margin: 10px 20px 20px 20px;
+	border-collapse: collapse;
+}
+
+table.contact_form td{
+	padding: 10px;
+	border: solid 1px #ccc;
+	text-align: center;
+}
+
+table.contact_form td.prefecture{
+	background: #FAEAED;
+}
+
+table.contact_form tr th{
+	background: linear-gradient(#fff,#E8F7A8);
+	padding: 5px 3px 5px 3px;
+	font-weight: normal;
+	width: 80px;
+	text-align: center;
+	border: solid 1px #ddd;
+}
+
