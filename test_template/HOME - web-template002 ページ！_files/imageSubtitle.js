@@ -1,0 +1,1 @@
+(function(a){a.modules.imageSubtitle=function(c){var d,b;c.data&&(b=c.data);d=b&&b.pinterest&&"1"==b.pinterest;a.jimdoData.isMobile()||a(c.selector).lightbox({pinterest:d});!a.jimdoData.isMobile()&&d&&a("#cc-m-imagesubtitle-image-"+b.id).pinterest()}})(jimdoGen002);

@@ -1,0 +1,21 @@
+<?php
+header('Content-Type: text/html; charset=utf-8');
+include 'define.php';
+include 'common.php';
+include 'csv.php';
+$dbh = getDb();
+$sth = $dbh->prepare('select * from yotsuba05 limit 0,10');
+$sth->execute();
+$result = $sth->fetchAll(PDO::FETCH_ASSOC);
+$data = $result;
+$csv = '';
+$downloadCsvDir = 'download_csv/';
+$filename = 'test' . date('Y-m-d-H-i-s') . '.csv';
+$makeCsvFilename = $downloadCsvDir . $filename;
+//ファイル名にディレクトリを含めるとダウンロードされるときファイル名に変換される
+$csv = new Csv();
+$csv->setData($data);
+$csv->getCsvMs($makeCsvFilename);
+header('Content-Type: application/octet-stream');
+header('Content-Disposition: attachment; filename=' . $filename);
+$csv->getCsvMs('php://output');

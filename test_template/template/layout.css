@@ -1,0 +1,304 @@
+@charset "UTF-8";
+/* Reset
+------------------------------------------------------------*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+address, em {
+	font-style: normal;
+}
+th {
+	font-weight: normal;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th {
+	text-align: left;
+}
+hr, legend {
+	display: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+img, fieldset {
+	border: 0;
+}
+li {
+	list-style-type: none;
+}
+/* Fonts
+------------------------------------------------------------*/
+body {
+	font-size: 75%; /* IE */
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+}
+html>/**/body {
+	font-size: 12px;
+} /* Except IE */
+/* clearfix
+------------------------------------------------------------*/
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+}
+.clearfix {
+/zoom: 1;
+} /* IE */
+/* 全体
+------------------------------------------------------------*/
+body {
+	text-align: center;
+	background-color: #D1E3B0;
+	background-image: url(http://u.jimdo.com/www58/o/s411ef4bf26613f10/userlayout/img/bg.jpg?t=1376589746);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#page {
+	width: 960px;
+	line-height: 1.8;
+	color: #333;
+	background: #ffffff;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+}
+a:link, a:visited {
+	color: #595633;
+	text-decoration: none;
+}
+a:hover {
+	color: #595633;
+	text-decoration: underline;
+}
+#contents a:hover img {
+	opacity: 0.8;
+	filter: alpha(opacity=60);
+}
+h1 a:link, h1 a:visited {
+	color: #595633;
+	text-decoration: none;
+}
+h1 a:hover {
+	color: #595633;
+	text-decoration: underline;
+}
+/* ヘッダー
+------------------------------------------------------------*/
+#header {
+	height: 42px;
+	width: 960px;
+	background-color: #A0C01D;
+}
+#logo {
+	float: left;
+	width: 300px;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 42px;
+	height: 42px;
+	margin-left: 20px;
+	letter-spacing: 0.3em;
+}
+#header h1 {
+	float: right;
+	font-weight: normal;
+	font-size: 10px;
+	color: #ffffff;
+	text-align: right;
+	width: 500px;
+	height: 29px;
+	margin-top: 13px;
+	margin-right: 20px;
+}
+
+/* ヘッダーナビゲーション
+------------------------------------------------------------*/
+
+#gnav {
+	width: 960px;
+	background: url(http://u.jimdo.com/www56/o/s472eec8e12586f80/img/i9b56c5634fb3c0dc/1376590090/std/image.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+#gnav ul {
+	margin: 0;
+	padding: 0;
+}
+#gnav ul li {
+	float: left;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#gnav ul li a {
+	background: url(http://u.jimdo.com/www56/o/s472eec8e12586f80/img/i2ee17f5e77c440fe/1374306533/std/image.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	display: block;
+　　/display: inline-block;
+	position: relative;
+	font-size: 12px;
+	text-decoration: none;
+	color: #6B694F;
+	text-align: center;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 15px;
+	height: 51px;
+}
+#gnav ul li a:hover {
+	background: url(http://u.jimdo.com/www56/o/s472eec8e12586f80/img/i9a91f08a64ecec5f/1376590120/std/image.jpg);
+	background-repeat: no-repeat;
+	background-repeat: repeat-x;
+	color: #6B694F;
+}
+/*
+#gnav .mainNav2 {
+	display: none;
+}
+/*
+
+/* コンテンツエリア
+------------------------------------------------------------*/
+
+#contents {
+	width: 890px;
+	padding-right: 35px;
+	padding-left: 35px;
+}
+#main {
+	float: left;
+	width: 654px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+#side {
+	float: right;
+	width: 206px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+/* メインエリア
+------------------------------------------------------------*/
+#main h1 {
+	background-image: url(http://u.jimdo.com/www56/o/s472eec8e12586f80/img/i52891a3b26d0a145/1376639420/std/image.jpg);
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #595633;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 30px;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 15px;
+}
+#main h2 {
+	font-size: 1.3em;
+	padding-left: 5px;
+	font-weight: bold;
+	color: #9CB900;
+}
+#main h3 {
+	font-size: 1.2em;
+	color: #333;
+}
+/* サイド
+------------------------------------------------------------*/
+
+#menu {
+	width: 202px;
+	margin-bottom: 20px;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+}
+#menu ul.mainNav1 li a.level_1 {
+	width: 177px;
+	padding: 8px 0px 5px 25px;
+	background-image: url(http://u.jimdo.com/www58/o/s411ef4bf26613f10/userlayout/img/yajirushi.gif?t=1376597877);
+	background-repeat: no-repeat;
+	background-position: left center;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	display: block;
+	text-decoration: none;
+	color: #595633;
+}
+#menu ul.mainNav1 li a:hover.level_1 {
+	text-decoration: underline;
+	color: #B5D37F;
+}
+
+#menu ul.mainNav2 li a.level_2, #menu ul.mainNav3 li a.level_3 {
+	display: block;
+	color: #595633;
+	width: 170px;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	background-image: url(yajirushi-2.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 32px;
+}
+#menu ul.mainNav2 a.level_2:hover, #menu ul.mainNav2 a.level_3:hover {
+	text-decoration: underline;
+	color: #B5D37F;
+}
+
+/* フッター
+------------------------------------------------------------*/
+
+#copyright {
+	background-color: #A8C249;
+	padding: 10px;
+ width 940px;
+	text-align: center;
+	font-size: 0.9em;
+	color: #F5F7DE;
+	margin-bottom: 20px;
+}
+#copyright a:link {
+	text-decoration: none;
+	color: #F5F7DE;
+}
+#copyright a:visited {
+	text-decoration: none;
+	color: #F5F7DE;
+}
+#copyright a:hover {
+	text-decoration: underline;
+	color: #F4F7E7;
+}
+#footer {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-size: 0.9em;
+}
+#footer a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+#footer a:visited {
+	color: #8E9A62;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #8E9A62;
+	text-decoration: underline;
+}
